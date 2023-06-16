@@ -23,4 +23,4 @@ app.listen(port,()=>{
 mongoose.connect(`mongodb+srv://sruthiscipy:sCIPYTECH71@cluster0.7tlwqki.mongodb.net/?retryWrites=true&w=majority`,{
 })
 .then(()=>console.log("mongoose connected"))
-.catch((err)=>console.log("err"))
+.catch((err)=>console.log("error"))
